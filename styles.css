@@ -1,0 +1,86 @@
+.table-consumer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.save {
+    display: none;
+}
+
+tr > td, th {
+    text-align: center;
+}
+
+tr > td {
+    height: 100px;
+}
+
+tr > td:last-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-custom {
+    width: 80px;
+    height: 40px;
+}
+
+.btn-add {
+    width: 100px;
+    height: 40px;
+    background: #ec9815;
+    color: #ffffff;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+input:invalid:not(:placeholder-shown) + .form_error {
+    display: block;
+}
+
+.form_error {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    display: inherit;
+    margin-top: 3px;
+    display: none;
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 70%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#name_warning {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.name_valid {
+    border-color: green;
+}
+
+.name_invalid {
+    border-color: red;
+}
